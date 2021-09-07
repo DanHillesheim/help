@@ -5,7 +5,7 @@ categories: [login-with-sso]
 featured: false
 popular: false
 tags: [sso, saml, saml2.0, idp, identity]
-order: 03
+order: "03"
 ---
 This article will guide you through the steps required to configure Login with SSO for SAML 2.0 authentication.
 
