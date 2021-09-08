@@ -151,4 +151,4 @@ Trusted emergency contacts who are given **View** access will be able to view yo
 Trusted emergency contacts who are given **Takeover** access will, once used, have created a new Master Password for your account. As a result, the only way to revoke access involves:
 
 1. Obtaining the new Master Password they created for your account and using it to log in the [Web Vault](https://vault.bitwarden.com){:target="\_blank"}.
-2. [Changing your Master Password]({{site.baseurl}}/master-password/#change-your-master-password) to one that they do not know.
+2. [Changing your Master Password](/master-password/#change-your-master-password) to one that they do not know.

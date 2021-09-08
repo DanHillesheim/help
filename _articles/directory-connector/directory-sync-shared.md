@@ -22,7 +22,7 @@ The Directory Connector configuration file (`data.json`) contains objects you ma
 
 It is not possible to setup the *entirety* of Directory Connector from `data.json`. Authentication values, like keys or secrets, must be set from either the [Desktop Application]({% link _articles/directory-connector/directory-sync-desktop.md %}) or [CLI]({% link _articles/directory-connector/directory-sync-cli.md %}).
 
-[{% icon fa-download %} Download a sample configuration file]({{site.baseurl}}/files/data.json)
+[{% icon fa-download %} Download a sample configuration file](/files/data.json)
 
 {% callout warning %}
 Avoid opening or modifying `data.json` while the Directory Connector Desktop Application or CLI executable is running.

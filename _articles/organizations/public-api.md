@@ -11,7 +11,7 @@ order: "16"
 The Bitwarden Public API provides Organizations a suite of tools for managing members, collections, groups, event logs, and policies.
 
 {% callout success %}
-For automating **management of Vault items**, we recommend using the [CLI]({{site.baseurl}}/cli/). Access to Vault items relies on Vault decryption, which must be done with a Username and Master Password rather than an [API Key](#authentication).
+For automating **management of Vault items**, we recommend using the [CLI](/cli/). Access to Vault items relies on Vault decryption, which must be done with a Username and Master Password rather than an [API Key](#authentication).
 {% endcallout %}
 
 The Public API is a RESTful API with predictable resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
@@ -46,7 +46,7 @@ The API Key `client_id` and `client_secret` can be obtained by an **Owner** from
 
 {% image organizations/org-api-key.png Get Organization API Key %}
 
-If, as an owner, you want to share the API Key with an Admin or other user, use a secure communication method like [Bitwarden Send]({{site.baseurl}}/about-send/).
+If, as an owner, you want to share the API Key with an Admin or other user, use a secure communication method like [Bitwarden Send](/about-send/).
 
 {% callout warning %}
 Your API key enables full access to your Organization. Keep your API key private. If you believe your API key has been compromised, select the **Rotate API Key** button on this screen. Active uses of your current API key will need to be reconfigured with the new key before use.

@@ -111,12 +111,12 @@ Depending on your IdP, you may need to create an additional API key or Applicati
 {% comment %}
 PLACEHOLDER TO ADD PROVIDER SCREENSHOTS Refer to the following samples for assistance:
 
-- [{% icon fa-download %} ADFS Sample]({{site.baseurl}}/files/bitwarden_export.csv)
-- [{% icon fa-download %} Azure Sample]({{site.baseurl}}/files/bitwarden_export.csv)
-- [{% icon fa-download %} GSuite Sample]({{site.baseurl}}/files/bitwarden_export.csv)
-- [{% icon fa-download %} JumpCloud Sample]({{site.baseurl}}/files/bitwarden_export.csv)
-- [{% icon fa-download %} Okta Sample]({{site.baseurl}}/files/bitwarden_export.csv)
-- [{% icon fa-download %} OneLogin Sample]({{site.baseurl}}/files/bitwarden_export.csv)
+- [{% icon fa-download %} ADFS Sample](/files/bitwarden_export.csv)
+- [{% icon fa-download %} Azure Sample](/files/bitwarden_export.csv)
+- [{% icon fa-download %} GSuite Sample](/files/bitwarden_export.csv)
+- [{% icon fa-download %} JumpCloud Sample](/files/bitwarden_export.csv)
+- [{% icon fa-download %} Okta Sample](/files/bitwarden_export.csv)
+- [{% icon fa-download %} OneLogin Sample](/files/bitwarden_export.csv)
 {% endcomment %}
 
 Once completed, return to the Bitwarden Business Portal and use the configured values from this step to complete [Step 4: Identity Provider Configuration](#step-4-identity-provider-configuration).

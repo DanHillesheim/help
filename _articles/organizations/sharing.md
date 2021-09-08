@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 {% callout info %}
-In order to share items you need to be a member of an Organization. Learn more about [Organizations]({% link _articles/organizations/about-organizations.md %}) or learn how to [start your own two-person Organization]({{site.baseurl}}/getting-started-organizations/).
+In order to share items you need to be a member of an Organization. Learn more about [Organizations]({% link _articles/organizations/about-organizations.md %}) or learn how to [start your own two-person Organization](/getting-started-organizations/).
 {% endcallout %}
 
 Sharing items with Bitwarden means moving them into an Organization and Collection, a structure used to gather together Logins, Notes, Cards, and Identities for access by multiple users. There are a few different ways you can create Organization items for sharing:

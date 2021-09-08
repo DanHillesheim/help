@@ -51,7 +51,7 @@ In the following table, "premium features" (included for **Premium Individual** 
 |Secure Password Generator|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|
 |Cloud or Self-hosting|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|
 |[Encrypted Export]({% link _articles/importing/encrypted-export.md %})|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|
-|[Bitwarden Send]({{site.baseurl}}/about-send/)|Text Sharing|Text + File Sharing|Text + File Sharing|
+|[Bitwarden Send](/about-send/)|Text Sharing|Text + File Sharing|Text + File Sharing|
 |*[Two-step login]({% link _articles/two-step-login/setup-two-step-login.md %})|via authenticator apps or email|via authenticator apps, email, Yubikey, FIDO2, and Duo|via authenticator apps, email, Yubikey, FIDO2, and Duo (does not include [Duo for Organizations]({% link _articles/two-step-login/setup-two-step-login-duo.md %}))|
 |*[Encrypted file attachments]({% link _articles/features/attachments.md %})|-|1 GB|1 GB per user + 1 GB shared|
 |*[Bitwarden Authenticator]({% link _articles/features/authenticator-keys.md %}) (TOTP)|-|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|
@@ -96,7 +96,7 @@ In the following table, "premium features" (included for **Teams Organizations**
 |Max no. of users|2|Unlimited|Unlimited|
 |Max no. of Collections|2|Unlimited|Unlimited|
 |[Encrypted Export]({% link _articles/importing/encrypted-export.md %})|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|
-|[Bitwarden Send]({{site.baseurl}}/about-send/)|Text Sharing|Text + File Sharing|Text + File Sharing|
+|[Bitwarden Send](/about-send/)|Text Sharing|Text + File Sharing|Text + File Sharing|
 |*[Two-step login]({% link _articles/two-step-login/setup-two-step-login.md %})|via authenticator apps or email|via authenticator apps, email, Yubikey, FIDO2, and Duo|via authenticator apps, email, Yubikey, FIDO2, and Duo|
 |[Duo for Organizations]({% link _articles/two-step-login/setup-two-step-login-duo.md %})|-|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|
 |*[Encrypted file attachments]({% link _articles/features/attachments.md %})|-|1 GB per user + 1 GB shared|1 GB per user + 1 GB shared|
@@ -110,7 +110,7 @@ In the following table, "premium features" (included for **Teams Organizations**
 |[Directory Connector]({% link _articles/directory-connector/directory-sync.md %})|-|<i class="fa fa-check" aria-hidden="true"></i>|<i class="fa fa-check" aria-hidden="true"></i>|
 |[Login with SSO]({% link _articles/login-with-sso/about-sso.md %})|-|-|<i class="fa fa-check" aria-hidden="true"></i>|
 |[Enterprise Policies]({% link _articles/organizations/policies.md %})|-|-|<i class="fa fa-check" aria-hidden="true"></i>|
-|[Admin Password Reset]({{site.baseurl}}/admin-reset/)|-|-|<i class="fa fa-check" aria-hidden="true"></i>|
+|[Admin Password Reset](/admin-reset/)|-|-|<i class="fa fa-check" aria-hidden="true"></i>|
 |[Custom Management Role]({% link _articles/organizations/user-types-access-control.md %})|-|-|<i class="fa fa-check" aria-hidden="true"></i>|
 |[Self-host option]({% link _articles/hosting/install-on-premise.md %})|-|-|<i class="fa fa-check" aria-hidden="true"></i>|
 |Cost to you|Free|$3 Per User Per Month, billed annually<br>or<br>$4 Per User Per Month, billed monthly|$5 Per User Per Month, billed annually<br>or<br>$6 Per User Per Month, billed monthly|
