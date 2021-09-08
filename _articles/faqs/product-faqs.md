@@ -105,4 +105,4 @@ Clicking on the number will expose the historical password values in plain text 
 
 ### Q: Can I print my Vault data?
 
-**A:** Not directly from Bitwarden, however you can [export your Vault data](/export-your-data/) as a `.csv` or `.json` file and print it out from your text editor.
+**A:** Not directly from Bitwarden, however you can [export your Vault data]({{site.baseurl}}/export-your-data/) as a `.csv` or `.json` file and print it out from your text editor.

@@ -88,9 +88,9 @@ Bitwarden takes user security and privacy seriously. Bitwarden maintains secure,
 
 - Offline Vault sessions will expire after 30 days.
   - **Except** for mobile client applications, which will expire after 90 days.
-- [Two-step Login](/setup-two-step-login) **Remember Me** selections will expire after 30 days.
-- Directory Connector [sync cache](/clear-sync-cache/) will be cleared after 30 days.
-- Organization invites will expire after 5 days. Self-hosted customers can configure this [using an environment variable](/environment-variables/#optional-variables).
+- [Two-step Login]({{site.baseurl}}/setup-two-step-login) **Remember Me** selections will expire after 30 days.
+- Directory Connector [sync cache]({{site.baseurl}}/clear-sync-cache/) will be cleared after 30 days.
+- Organization invites will expire after 5 days. Self-hosted customers can configure this [using an environment variable]({{site.baseurl}}/environment-variables/#optional-variables).
 
 ### Questions Regarding Specific Client Apps
 

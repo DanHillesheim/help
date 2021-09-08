@@ -2,7 +2,7 @@
 
 <nav class="bd-links collapse" id="bd-docs-nav" aria-label="Main navigation">
     <div class="bd-toc-search">
-        <form class="search-header" action="search/" id="search" method="get">
+        <form class="search-header" action="{{site.baseurl}}/search/" id="search" method="get">
             <div class="input-group input-group-lg">
                 <input type="search" class="form-control" placeholder="Search..." id="search-box" name="q">
                 <button class="btn btn-light" type="submit" onclick="gaEvent('Search')">
@@ -13,12 +13,12 @@
         </form>
     </div>
     <div class="bd-toc-item">
-        <a class="bd-toc-link" href="">
+        <a class="bd-toc-link" href="{{site.baseurl}}/">
             Home
         </a>
     </div>
     <div class="bd-toc-item">
-        <a class="bd-toc-link" href="releasenotes">
+        <a class="bd-toc-link" href="{{site.baseurl}}/releasenotes">
             Release Notes
         </a>
     </div>
@@ -42,7 +42,7 @@
             {% for article in sorted_articles %}
             {% if article.categories contains catFilename and article.hidden != true %}
             <li {% if page.url contains article.url %}class="active"{% endif %}>
-                <a href="{{article.url}}">{{article.title}}</a>
+                <a href="{{site.baseurl}}{{article.url}}">{{article.title}}</a>
             </li>
             {% endif %}
             {% endfor %}

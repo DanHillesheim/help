@@ -10,7 +10,7 @@ order: "13"
 
 ## What are Event Logs?
 
-Event Logs are timestamped records of events that occur within your Organization. Event Logs are accessible to [Admins and Owners](/event-logs/) from the **Manage** tab of your Organization Vault:
+Event Logs are timestamped records of events that occur within your Organization. Event Logs are accessible to [Admins and Owners]({{site.baseurl}}/event-logs/) from the **Manage** tab of your Organization Vault:
 
 {% image organizations/event-logs-updated.png Event Logs %}
 
@@ -88,7 +88,7 @@ https://github.com/bitwarden/web/blob/master/src/locales/en/messages.json
 
 ### Provider Events
 
-When any of the above events is executed by a member of an [administering Provider](/providers/), the **User** column will record the name of the Provider. Additionally, a Provider-specific event will record whenever a member of an administering Provider accesses your Organization Vault:
+When any of the above events is executed by a member of an [administering Provider]({{site.baseurl}}/providers/), the **User** column will record the name of the Provider. Additionally, a Provider-specific event will record whenever a member of an administering Provider accesses your Organization Vault:
 
 `IMAGE PLACEHOLDER`
 

@@ -41,21 +41,21 @@ If you're not ready to start a Provider, the Bitwarden team is eager to support 
 
 The latest release of Bitwarden is focused on enabling Managed Service Providers (MSPs) to support their customers' password management needs:
 
-- **Provider Portal**: The Provider Portal allows Managed Service Providers (MSPs) and Resellers to create and administer Organizations on behalf of customers. Using the Portal, Providers can seamlessly support credential management across multiple customers (see [here](/getting-started-providers/) for details).
+- **Provider Portal**: The Provider Portal allows Managed Service Providers (MSPs) and Resellers to create and administer Organizations on behalf of customers. Using the Portal, Providers can seamlessly support credential management across multiple customers (see [here]({{site.baseurl}}/getting-started-providers/) for details).
 - **Share Verbiage Change**: We've updated the {% icon fa-share-alt %} **Share** button to {% icon fa-arrow-circle-o-right %} **Move to Organization** to make it cleared that shared items are owned by the Organization. Additionally, we've updated the "shared item" indicator ({% icon fa-share-alt %}) to match the Collections indicator ({% icon fa-cube %}).
-- **CLI `move` Command**: In keeping with the above item, the CLI `share` command has been changed to `move` (see [here](/cli/#move) for details).
+- **CLI `move` Command**: In keeping with the above item, the CLI `share` command has been changed to `move` (see [here]({{site.baseurl}}/cli/#move) for details).
 
 ## 2021-06-29
 
 The Bitwarden team is happy to announce the rollout of Admin Password Reset, the latest feature purpose-built to help enterprises seeking to ensure password security at scale. This release includes:
 
-- **Admin Password Reset**: Enterprise Organizations can enroll in Admin Password Reset to allow designated administrators to reset the Master Password of Organization users (see [here](/admin-reset/) for details).
-- **Master Password Re-prompt**: Use the new Master Password re-prompt option to require verification of your Master Password to access sensitive Vault items as designated by the user (see [here](/managing-items/#protect-individual-items) for details).
-- **Bulk User Management**: Organization Owners and Admins can now re-send invitations, confirm accepted users, and remove users from an Organization in-bulk (see [here](/managing-users/#onboard-users) for details).
-- **Event Log Export**: Export event logs directly from the Web Vault (see [here](/event-logs/#export-events) for details).
-- **Directory Connector API Key Authentication**: Starting with this release, users of Directory Connector will need to use the [Organization API Key](/public-api/#authentication) to login.
-- **Directory Connector Sync Limit Increase**: Directory Connector can now sync an unlimited number of users or groups, where previously the limit was set at 2000 of either. To sync more than 2000 users or groups, toggle the new Sync Option (see [here](/user-group-filters/#large-syncs) for details).
-- **Autofill On Page Load Enhancements**: The Browser Extension's Auto-fill on page load feature has been upgraded to more flexibly fit users' unique needs (see [here](/auto-fill-browser/#on-page-load) for details).
+- **Admin Password Reset**: Enterprise Organizations can enroll in Admin Password Reset to allow designated administrators to reset the Master Password of Organization users (see [here]({{site.baseurl}}/admin-reset/) for details).
+- **Master Password Re-prompt**: Use the new Master Password re-prompt option to require verification of your Master Password to access sensitive Vault items as designated by the user (see [here]({{site.baseurl}}/managing-items/#protect-individual-items) for details).
+- **Bulk User Management**: Organization Owners and Admins can now re-send invitations, confirm accepted users, and remove users from an Organization in-bulk (see [here]({{site.baseurl}}/managing-users/#onboard-users) for details).
+- **Event Log Export**: Export event logs directly from the Web Vault (see [here]({{site.baseurl}}/event-logs/#export-events) for details).
+- **Directory Connector API Key Authentication**: Starting with this release, users of Directory Connector will need to use the [Organization API Key]({{site.baseurl}}/public-api/#authentication) to login.
+- **Directory Connector Sync Limit Increase**: Directory Connector can now sync an unlimited number of users or groups, where previously the limit was set at 2000 of either. To sync more than 2000 users or groups, toggle the new Sync Option (see [here]({{site.baseurl}}/user-group-filters/#large-syncs) for details).
+- **Autofill On Page Load Enhancements**: The Browser Extension's Auto-fill on page load feature has been upgraded to more flexibly fit users' unique needs (see [here]({{site.baseurl}}/auto-fill-browser/#on-page-load) for details).
 - **More CLI Options**: We've added a few new CLI options, including easy retrieval of Vault item notes (`bw get notes <id>`) and the ability to set maximum access count for Sends (`bw send create --maxAccessCount <#>`).
 - **Web Developer Autofill Exclusion**: Web Development contributors can now prevent the Browser Extension from auto-filling a given form element by adding a `data-bwignore` attribute (e.g. `data-bwignore="true"`) to an `<input>` element.
 
@@ -63,19 +63,19 @@ The Bitwarden team is happy to announce the rollout of Admin Password Reset, the
 
 The Bitwarden team is pleased to release a set of features and updates continuing our mission of making password management easy and accessible for individuals and businesses:
 
-- **Privacy & Security Options for Send**: Use a new Send Privacy option to hide your email from recipients (see [here](/send-privacy/#hide-email) for details). To prevent abuse, File Sends will now require a verified email address. Additionally, Enterprise Organizations can implement a new policy to set the availability of the Hide Email option (see [here](/policies/#send-options) for details).
-- **FIDO Updates & Expanded Support**: Our FIDO implementation has been upgraded from FIDO U2F to FIDO2 WebAuthn, but existing FIDO U2F keys will retain their integrity. FIDO support has been expanded to more Browser Extensions and the Windows Desktop App (see [here](/setup-two-step-login-fido/) for details).
-- **Custom Fields for Keys**: Custom Field values have been upgraded to support up to 5000 characters, allowing storage of keys like RSA 4096-bit SSH keys (see [here](/custom-fields/#custom-fields-for-keys) for details).
+- **Privacy & Security Options for Send**: Use a new Send Privacy option to hide your email from recipients (see [here]({{site.baseurl}}/send-privacy/#hide-email) for details). To prevent abuse, File Sends will now require a verified email address. Additionally, Enterprise Organizations can implement a new policy to set the availability of the Hide Email option (see [here]({{site.baseurl}}/policies/#send-options) for details).
+- **FIDO Updates & Expanded Support**: Our FIDO implementation has been upgraded from FIDO U2F to FIDO2 WebAuthn, but existing FIDO U2F keys will retain their integrity. FIDO support has been expanded to more Browser Extensions and the Windows Desktop App (see [here]({{site.baseurl}}/setup-two-step-login-fido/) for details).
+- **Custom Fields for Keys**: Custom Field values have been upgraded to support up to 5000 characters, allowing storage of keys like RSA 4096-bit SSH keys (see [here]({{site.baseurl}}/custom-fields/#custom-fields-for-keys) for details).
 - **File Size Increases**: You can now create File Attachments or File Sends that are up to 500 MB each. Due to device restrictions, the old 100 MB limit is still in place for Mobile Apps.
 
    {% callout warning %}As a result of the Attachment upgrade, Attachments uploaded on the newest clients cannot be opened on older client versions. If you find you're unable to access a recently-created Attachment, upgrade your client to the newest version. (**Hint:** The Cloud Web Vault is *always* on the newest version.)<br><br>**Frozen or legacy client versions**, including the Safari 13 (or earlier) macOS Desktop App & App Extension, will not support accessing these attachments.{% endcallout %}
-- **Disable Browser Extension Counter**: Disable the Browser Extension badge counter using a new toggle in the {% icon fa-cogs %} **Settings** &rarr; **Options** menu (see [here](/auto-fill-browser/) for details).
-- **Biometrics for Safari**: The Safari Web Extension now includes support for Unlock with Biometrics for Safari 14+ (see [here](/biometrics/) for details).
+- **Disable Browser Extension Counter**: Disable the Browser Extension badge counter using a new toggle in the {% icon fa-cogs %} **Settings** &rarr; **Options** menu (see [here]({{site.baseurl}}/auto-fill-browser/) for details).
+- **Biometrics for Safari**: The Safari Web Extension now includes support for Unlock with Biometrics for Safari 14+ (see [here]({{site.baseurl}}/biometrics/) for details).
 - **Search Internationalization**: Vaults can now be searched against 1 character, improving the experience for languages with 1-character words like Simplified and Traditional Chinese.
-- **Sorted Weak Passwords Report**: The Weak Passwords Report is now sorted by the severity of the password's weakness (see [here](/reports/#weak-passwords-report) for details)
+- **Sorted Weak Passwords Report**: The Weak Passwords Report is now sorted by the severity of the password's weakness (see [here]({{site.baseurl}}/reports/#weak-passwords-report) for details)
 
 {% callout success %}
-Since implementing [Soft Delete](/managing-items/#items-in-the-trash) back in 2020, we've been patient to take out the Trash. **Starting 5/15/2021**, we'll activate the nightly job that will permanently delete items that have been in your trash for 30 days or more.
+Since implementing [Soft Delete]({{site.baseurl}}/managing-items/#items-in-the-trash) back in 2020, we've been patient to take out the Trash. **Starting 5/15/2021**, we'll activate the nightly job that will permanently delete items that have been in your trash for 30 days or more.
 
 Prior to 5/15/2021, we recommend digging through your Trash for anything you might want to Restore!
 {% endcallout %}
@@ -87,7 +87,7 @@ Bitwarden is proud to announce the release of Bitwarden Send, and end-to-end enc
 - **Bitwarden Send**: Bitwarden Send is end-to-end encrypted solution for ephemeral sharing. There's lot of material about Send on our website and Help Center, but you can start [here](https://bitwarden.com/products/send){:target="\_blank"} or [here]({% link _articles/send/about-send.md %}).
 - **FIDO U2F Support for Edge**: Two-step Login via FIDO U2F is now available for the Web Vault and Browser Extensions in Microsoft Edge (see [here]({% link _articles/two-step-login/setup-two-step-login-fido.md %}) for details).
 - **Domain Exclusion in Browser Extensions**: Bitwarden Browser Extensions can now be configured with domains to explicitly not offer to remember passwords for (see [here]({% link _articles/miscellaneous/exclude-domains.md %}) for details).
-- **Improved Import Error Messages**: We've had lots of folks migrating to Bitwarden recently, so we cleaned up an import error message to help you reconcile issues faster (see [here](/import-data/#length-related-import-errors) for details).
+- **Improved Import Error Messages**: We've had lots of folks migrating to Bitwarden recently, so we cleaned up an import error message to help you reconcile issues faster (see [here]({{site.baseurl}}/import-data/#length-related-import-errors) for details).
 - **Safari Web Extension Port**: Our Safari App Extension has officially been ported to a Web Extension for use with Safari 14+. Due to changes to Safari, Web Extension use is now limited to only those obtained through Mac App Store downloads (see [here]({% link _articles/account/install-safari-app-extension.md %}) for details).
 
 ## 2021-01-19 Post-Release Update
