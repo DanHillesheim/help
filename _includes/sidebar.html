@@ -42,7 +42,7 @@
             {% for article in sorted_articles %}
             {% if article.categories contains catFilename and article.hidden != true %}
             <li {% if page.url contains article.url %}class="active"{% endif %}>
-                <a href="/{{site.baseurl}}{{article.url}}">{{article.title}}</a>
+                <a href="{{site.baseurl}}{{article.url}}">{{article.title}}</a>
             </li>
             {% endif %}
             {% endfor %}
